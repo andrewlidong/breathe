@@ -1,0 +1,13 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     './.build/breathe'
+relocations:
+  - { offset: 0x1E, size: 0x8, addend: 0x0, symName: '__$breathe$sleep_with_bar', symObjAddr: 0x0, symBinAddr: 0x1000033DC, symSize: 0x2F0 }
+  - { offset: 0x39, size: 0x8, addend: 0x0, symName: '__$breathe$$initialize', symObjAddr: 0x714, symBinAddr: 0x100003AF0, symSize: 0x98 }
+  - { offset: 0x58, size: 0x8, addend: 0x0, symName: '__$breathe$$initialize.initialized', symObjAddr: 0x35A7, symBinAddr: 0x100008000, symSize: 0x0 }
+  - { offset: 0x92F, size: 0x8, addend: 0x0, symName: '__$breathe$sleep_with_bar', symObjAddr: 0x0, symBinAddr: 0x1000033DC, symSize: 0x2F0 }
+  - { offset: 0xC89, size: 0x8, addend: 0x0, symName: '__$breathe$main', symObjAddr: 0x2F0, symBinAddr: 0x1000036CC, symSize: 0x424 }
+  - { offset: 0x11CF, size: 0x8, addend: 0x0, symName: '__$breathe$main$parse_and_run', symObjAddr: 0x7AC, symBinAddr: 0x100003B88, symSize: 0x1D8 }
+  - { offset: 0x13BE, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100003D60, symSize: 0x4 }
+  - { offset: 0x13CB, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100003D60, symSize: 0x4 }
+...
