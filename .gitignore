@@ -1,5 +1,7 @@
 # Build artifacts
 .build/
+*.dSYM/
+*.dSYM
 
 # Editor files
 .vscode/
