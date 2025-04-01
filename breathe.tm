@@ -46,8 +46,8 @@ func main(inhale_time=none:Int, hold_time=none:Int, exhale_time=none:Int, cycles
     phases["exhale"] = exhale_time or get_int("How long would you like to exhale for? $\n")
     cycles = cycles or get_int("How many cycles would you like to do this for? $\n")
 
-    say("  Inhale: " ++ Text(phases["inhale"]!) ++ "s | Hold: " ++ Text(phases["hold"]!) ++ "s")
-    say("  Exhale: " ++ Text(phases["exhale"]!) ++ "s | Cycles: " ++ Text(cycles!))
+    say("  Inhale: $(phases["inhale"]!)s | Hold: $(phases["hold"]!)s")
+    say("  Exhale: $(phases["exhale"]!)s | Cycles: $(cycles!)")
     say("====================================")
 
     for i in cycles!:
